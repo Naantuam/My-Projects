@@ -10,14 +10,12 @@ import "./style.css";
 function App(params) {
     return (
         <div className="wrap">
-            <div className="container">
                 <Profile />
                 <Chat />
                 <Calender />
                 <Store />
                 <Settings />
                 <Google />
-            </div>
         </div>
     )
 };

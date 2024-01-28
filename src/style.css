@@ -1,8 +1,8 @@
 body{
   
-      width: 100%;
+      width: 100vw;
       height: 100vh;
-      background: yellow;
+      background: silver;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -10,16 +10,18 @@ body{
   }
   
   .wrap{ 
-    width: 40%;
-    display: flex;
+    width: 50vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: auto auto;
     justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
   }  
 
   
   
   div[class^="metro"]{
-      /* float: right; */
+      float: right;
 
       margin: 0 10px 10px 0;
 
@@ -53,11 +55,6 @@ body{
   
   }
   
-  .metro-big{
-      width: 200px;
-      height: 200px;
-              
-  }
 
   
   .last{margin-right: 0 !important;}
